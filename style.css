@@ -46,13 +46,26 @@
 }
 .launch-time{
   display: flex;
+   justify-content: center;
+  gap: 20px; /* space between boxes */
+  margin-top: 20px;
 }
 .launch-time div{
   flex-basis: 100px;
+  background: #6608e2;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 70px;
 }
 .launch-time div p{
-  font-size: 60px;
-  margin-bottom: -14px;
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+.launch-time span {
+  font-size: 16px;
+  color: #020202;
 }
 .rocket{
   width: 250px;
